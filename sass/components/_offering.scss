@@ -1,0 +1,55 @@
+.offering {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/team-bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-size: cover;
+    background-color: #2f303a;
+    padding: 200px 0;
+  }
+
+   .offering__text {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 696px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+} 
+
+  .offering__btn {
+    padding: 10px 32px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    color: #ffffff;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+     
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  
+  }
+ 

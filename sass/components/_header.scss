@@ -1,0 +1,115 @@
+.header {
+    border-bottom: 1px solid #ececec;
+  }
+
+  .header__logo {
+    margin-left: 0;
+    margin-right: 93px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    font-family: Raleway;
+  
+    color: var(--accent-color);
+  }
+  
+  .header__logo-text {
+    color: #000000;
+  }
+
+  .header__container {
+    height: 80px;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .header__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+  
+    color: var(--primary-text-color);
+  }
+  
+  .header__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+  
+    color: var(--primary-text-color);
+  }
+  
+  .header__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+  
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--primary-text-color);
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+  
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+  }
+
+}
+
+.header__mail {
+  margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  transition-property: fill color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header__mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.header__tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+
+  transition-property: fill color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header__tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

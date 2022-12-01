@@ -1,0 +1,31 @@
+// utils styles
+@import './utils/vars';
+
+//base styles
+@import './base/base';
+@import './base/reset';
+@import './base/animation';
+
+
+//components styles
+@import './components/container';
+@import './components/header';
+@import './components/offering';
+@import './components/hero';
+@import './components/work';
+@import './components/team';
+@import './components/team__wrapper';
+@import './components/team__socials-list';
+@import './components/clients';
+@import './components/clients__list';
+@import './components/footer';
+@import './components/footer__social';
+@import './components/subscribe';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/reguls__link';
+@import './components/submit__button';
+@import './components/main__product';
+@import './components/overlay';
+@import './components/current';
+
