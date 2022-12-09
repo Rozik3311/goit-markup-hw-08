@@ -1,4 +1,9 @@
 .backdrop {
+
+  // @media screen and (min-width: 480px) {
+  //   padding: 93px 15px 94px;
+  // }
+
     position: fixed;
     top: 0;
     left: 0;
@@ -15,6 +20,8 @@
     visibility: var(--anim-fast);
   
     z-index: 100;
+
+    overflow-y: scroll;
 
     &.is-hidden {
       visibility: hidden;
