@@ -46,10 +46,18 @@
 
 .menu-toggle:hover,
 .menu-toggle:focus {
+  color: var(--accent-color);
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+
+.menu__close-icon{
+  fill: var(--accent-color);
+}
+
 .menu-container {
+  padding: 48px 83px 48px 40px;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -57,7 +65,6 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
   background-color: var(--white-color);
   z-index: 999;
 
@@ -79,11 +86,10 @@
 .mobile-menu {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 32px;
   padding: 0;
   margin: 0;
   margin-bottom: auto;
-  list-style: none;
 }
 
 .mobile-menu .link {
@@ -95,27 +101,32 @@
 
 
 
-.mobile__link {
-  
+.mobile__items {
   width: 139px;
   font-weight: 500;
   font-size: 40px;
   line-height: calc(47/40);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
 } 
 
 
+.mobile__contacts-tel {
+font-weight: 500;
+font-size: 34px;
+line-height: calc(40/34);
+letter-spacing: 0.02em;
 
-.mobile-contacts__tel {
-  width: 296px;
-  height: 40px;
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
-.mobile-contacts__mail{
-  width: 231px;
-  height: 28px;
+.mobile__contacts-mail{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(28/24);
+  letter-spacing: 0.02em;
+
   color: var(--title-text-color);
 }
 
@@ -126,13 +137,24 @@
   
 }
 
-.mobile-socials__link {
+.mobile__socials-item{
+  position: relative;
   font-weight: 500;
   font-size: 18px;
   line-height: calc(22/18);
-  letter-spacing: 0.02em;
-  width: 85px;
-  height: 1px;
-  
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
+
+.social__strip:not(:last-child)::after {
+position: absolute;
+top: 50%;
+right: -12px;
+transform: translateY(-50%); 
+display: block;
+content: "";
+width: 1px;
+height: 20px;
+border: 1px solid rgba(33,33,33,0.2);
+}
+
