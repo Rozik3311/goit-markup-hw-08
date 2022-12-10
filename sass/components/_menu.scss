@@ -77,6 +77,9 @@
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding: 0;
   margin: 0;
   margin-bottom: auto;
@@ -90,7 +93,10 @@
   text-decoration: none;
 } 
 
+
+
 .mobile__link {
+  
   width: 139px;
   font-weight: 500;
   font-size: 40px;
@@ -117,14 +123,16 @@
 .mobile__socials {
   display: flex;
   gap: 20px;
+  
 }
 
 .mobile-socials__link {
-  width: 85px;
   font-weight: 500;
   font-size: 18px;
   line-height: calc(22/18);
   letter-spacing: 0.02em;
+  width: 85px;
+  height: 1px;
   
-  fill: #2196F3;
+  color: var(--accent-color);
 }
