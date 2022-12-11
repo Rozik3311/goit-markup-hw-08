@@ -7,7 +7,9 @@
 
   @media screen and (max-width: 1199px) {
     max-width: 450px;
-    max-height: 609px;
+    // max-height: 609px;
+    width: calc(100% - 30px);
+    padding: 40px;
   }
 
   transform: scale(1);
@@ -24,14 +26,18 @@
 
 .modal__title {
   @media screen and (max-width: 1199px) {
-    width: 370px;
+    
     height: 60px;
     line-height: calc(30 / 20);
+    padding-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    margin: 40px 40px 12px 40px;
+    width: 448px;
   }
 
   text-align: center;
-  margin: 40px 40px 12px 40px;
-  width: 448px;
   height: 23px;
 
   font-weight: 700;
@@ -50,9 +56,10 @@
   margin-bottom: 10px;
 
   & label {
+    
     margin-bottom: 4px;
-    margin-left: 40px;
-    margin-right: 40px;
+    // margin-left: 40px;
+    // margin-right: 40px;
     width: 22px;
     height: 14px;
     font-style: normal;
@@ -65,16 +72,16 @@
 
   & input {
     @media screen and (max-width: 1199px) {
-      width: 370px;
+      width: 100%;
+    }
+    @media screen and (min-width: 1199px) {
+      margin-left: 40px;
+      margin-right: 40px;
+      width: 448px;
+      height: 40px;
     }
 
     box-sizing: border-box;
-
-    width: 448px;
-    height: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: unset;
@@ -89,21 +96,22 @@
   }
 
   & textarea {
+
     @media screen and (max-width: 1199px) {
-      width: 370px;
+      width: 100%;
+    }
+
+    @media screen and (min-width: 1199px) {
+      margin-left: 40px;
+      margin-right: 40px;
+      width: 448px;
+      height: 120px;
     }
 
     box-sizing: border-box;
-    margin-left: 40px;
-    margin-right: 40px;
-
-    width: 448px;
-    height: 120px;
-
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: unset;
-
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -117,6 +125,13 @@
   & input:focus + .modal-input__icon {
     fill: #2196f3;
   }
+}
+
+.form__label {
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 40px;
+    }
 }
 
 .form__label:not(:first-child) {
@@ -133,9 +148,20 @@
 }
 
 .modal-input__icon {
+
+  @media screen and (max-width: 1199px) {
+    top: 10%;
+    left: 12px;
+    }
+
+  @media screen and (min-width: 1200px) {
+    left: 55px;
+    }
+
+
   position: absolute;
   top: 25%;
-  left: 52px;
+  left: 12px;
 
   display: inline-block;
   transition-property: fill;
@@ -157,9 +183,13 @@
 }
 
 .accept__reguls {
+
   padding-top: 20px;
+
+  @media screen and (min-width: 1200px) {
   padding-left: 52px;
   padding-right: 51px;
+  }
 
   & accept__reguls input {
     background: #212121;
@@ -175,29 +205,27 @@
       line-height: calc(14 / 12);
     }
 
-    @media screen and (max-height: 1199px) {
+    @media screen and (min-height: 1200px) {
      width: 400px;
      height: 24px;
      font-style: normal;
      line-height: calc(24 / 14);
-
-    
     }
 
      font-weight: 400;
      font-size: 14px;
      letter-spacing: 0.03em;
      color: #757575;
-
   }
 }
 
 .accept__button {
   @media screen and (max-width: 1199px) {
-    padding-left: 125px;
-    padding-right: 125px;
+    // padding-left: 125px;
+    // padding-right: 125px;
     padding-top: 30px;
-    padding-bottom: 50px;
+    // padding-bottom: 40px;
+    text-align: center;
   }
 
   @media screen and (min-width: 1200px) {

@@ -41,7 +41,7 @@
    
     & input {
       @media screen and (max-width: 1199px) {
-        width: 450px;
+        max-width: 100%;
       }
       
       color: var(--white-color);
@@ -86,22 +86,22 @@
   
   }
 
-  .subscribe-button__icon {
-    position: absolute;
+  // .subscribe-button__icon {
+  //   position: absolute;
 
-    @media screen and (min-width: 480px) {
-      right: 14px;
-      top: 45%;
-      }
+  //   @media screen and (min-width: 480px) {
+  //     right: 14px;
+  //     top: 45%;
+  //     }
 
-    @media screen and (min-width: 768px) {
-      right: 14px;
-      top: 45%;
-      }
+  //   @media screen and (min-width: 768px) {
+  //     right: 14px;
+  //     top: 45%;
+  //     }
 
-    @media screen and (min-width: 1199px) {
-      right: 14px;
-      top: 20%;
-      }
+  //   @media screen and (min-width: 1199px) {
+  //     right: 14px;
+  //     top: 20%;
+  //     }
    
-  }
+  // }

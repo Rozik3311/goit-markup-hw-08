@@ -133,6 +133,8 @@ color: var(--accent-color);
 
 .mobile__socials {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   
 }
