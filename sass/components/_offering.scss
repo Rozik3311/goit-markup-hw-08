@@ -17,7 +17,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/offering/img_sm.jpg");
+    url('../images/offering/img_sm.jpg');
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -26,7 +26,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/offering/img_sm@2x.jpg");
+      url('../images/offering/img_sm@2x.jpg');
   }
 
   // tablet screen
@@ -35,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/offering/img_md.jpg");
+      url('../images/offering/img_md.jpg');
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -44,7 +44,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../../images/offering/img_md@2x.jpg");
+        url('../images/offering/img_md@2x.jpg');
     }
   }
 
@@ -54,7 +54,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/offering/Img_lg.jpg");
+      url('../images/offering/Img_lg.jpg');
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -63,7 +63,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../../images/offering/Img_lg@2x.jpg");
+        url('../images/offering/Img_lg@2x.jpg');
     }
   }
 }
