@@ -1,11 +1,10 @@
 .offering {
-  
   background-repeat: no-repeat;
   text-align: center;
   background-position: left;
   background-size: cover;
   background-color: #2f303a;
-  padding: 118px 0 ;
+  padding: 118px 0;
 
   // background-image: linear-gradient(
   //     rgba(47, 48, 58, 0.4),
@@ -15,52 +14,58 @@
 
   // phone screen
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ), url('../images/offering/img_sm.jpg');
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/offering/img_sm.jpg");
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ), url('../images/offering/img_sm@2x.jpg');
-  }
-
-   // tablet screen
-   @media screen and (min-width: 481px) {
-    background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ), url('../images/offering/img_md.jpg');
-
-    @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-      background-image: linear-gradient(
+    background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-      ), url('../images/offering/img_md@2x.jpg');
-    }
-}
-
- // desktop screen
- @media screen and (min-width: 768px) {
-  background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ), url('../images/offering/img_lg.jpg');
-
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ), url('../images/offering/img_lg@2x.jpg');
+      ),
+      url("../../images/offering/img_sm@2x.jpg");
   }
-}
+
+  // tablet screen
+  @media screen and (min-width: 481px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/offering/img_md.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/offering/img_md@2x.jpg");
+    }
+  }
+
+  // desktop screen
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/offering/Img_lg.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/offering/Img_lg@2x.jpg");
+    }
+  }
 }
 
 .offering__text {
