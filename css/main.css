@@ -333,8 +333,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .offering__text {
-    width: 696px;
-    height: 120px;
+    max-width: 696px;
     font-size: 44px;
     line-height: 1.3636363636;
   }
@@ -384,7 +383,11 @@ a {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
+}
+@media screen and (max-width: 767px) {
+  .hero__list {
+    gap: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
